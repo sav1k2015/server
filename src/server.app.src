@@ -1,0 +1,14 @@
+{application, server,
+ [
+  {description, "An Erlang server library"},
+  {vsn, "1"},
+  {modules, [
+             server
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
